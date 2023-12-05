@@ -4,15 +4,15 @@
 
 ### Create Virtual Environment in Powershell
 
-"""sh 
+'''sh 
     python -m venv env_llm 
-"""
+'''
 
 ### Active Virtual Environment in Powershell
 
-"""sh 
+'''sh 
     .\env_llm\Scripts\activate
-"""
+'''
 
 
 🌳 Large Language Model Project
@@ -43,7 +43,7 @@ note: huggingface requires to connect the langchain with LLM model
             https://huggingface.co/models
         '''
     >> hugging face login >> Top Right Corner >> settings >> access tokens (generate)
-    ![Alt text](image.png)
+    
     📌Note: We can run the model locally after download but it is computationally expensive. 😃 But we can use it by calling the respective API of Hugging Face and run it over internet using access token.
 
 ### ⛳Topics 
