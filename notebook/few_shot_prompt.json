@@ -1,0 +1,38 @@
+{
+    "input_variables": [
+        "input"
+    ],
+    "input_types": {},
+    "output_parser": null,
+    "partial_variables": {},
+    "examples": [
+        {
+            "statement": "I hope your day is filled with joy and positivity!",
+            "feedback": "Happy"
+        },
+        {
+            "statement": "I'm sorry to hear that you're feeling unhappy. I'm here to listen and support you.",
+            "feedback": "Unhappy"
+        }
+    ],
+    "example_selector": null,
+    "validate_template": false,
+    "example_prompt": {
+        "input_variables": [
+            "feedback",
+            "statement"
+        ],
+        "input_types": {},
+        "output_parser": null,
+        "partial_variables": {},
+        "template": "Statement: {statement}\nReply: {feedback}\n",
+        "template_format": "f-string",
+        "validate_template": false,
+        "_type": "prompt"
+    },
+    "suffix": "Statement: {input} \nReply:",
+    "example_separator": "\n",
+    "prefix": "Feedback to each statement Happy or Unhappy \n",
+    "template_format": "f-string",
+    "_type": "few_shot"
+}
